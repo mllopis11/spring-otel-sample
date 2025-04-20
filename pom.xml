@@ -26,6 +26,17 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         
         <project.scm.url>git@github.com:mllopis11/spring-otel-sample</project.scm.url>
+
+         <!-- Maven plugins -->
+        <maven.plugin.compiler.version>3.14.0</maven.plugin.compiler.version>
+        <maven.plugin.jar.version>3.4.2</maven.plugin.jar.version>
+        <maven.plugin.resources.version>3.3.1</maven.plugin.resources.version>
+        <maven.plugin.source.version>3.3.1</maven.plugin.source.version>
+        <maven.plugin.javadoc.version>3.11.2</maven.plugin.javadoc.version>
+        <maven.plugin.release.version>3.1.1</maven.plugin.release.version>
+        <maven.plugin.surefire.version>3.5.3</maven.plugin.surefire.version>
+        <maven.plugin.failsafe.version>3.5.3</maven.plugin.failsafe.version>
+        <maven.plugin.enforcer-plugin>3.5.0</maven.plugin.enforcer-plugin>
     </properties>
 
     <scm>
